@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="LothW3FAS0p0TABZe-HL">
+    <mxGraphModel dx="869" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HZOaZlLsGa58mIDQCULS-3" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;labelPerimeter=1;" value="Mikrotik hAP 2&lt;div&gt;192.168.1.0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="300" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="HZOaZlLsGa58mIDQCULS-5" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/switch.svg;labelPerimeter=1;" value="Netgear GS108T" vertex="1">
+          <mxGeometry height="50" width="50" x="160" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="HZOaZlLsGa58mIDQCULS-7" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;labelPerimeter=1;" value="Ubuntu Server&lt;div&gt;192.168.121&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="28.000000000000004" x="230" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="HZOaZlLsGa58mIDQCULS-8" parent="1" style="image;aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;points=[[0.463,0,0],[0.5,0.922,0],[0,0.444,0],[1,0.578,0],[0.995,0.32,0],[1,0.83,0],[0.005,0.627,0],[0.005,0.26,0]];labelPerimeter=1;" value="Desktop&amp;nbsp;" vertex="1">
+          <mxGeometry height="62.400000000000006" width="62.400000000000006" x="80" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="HZOaZlLsGa58mIDQCULS-10" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/printer.svg;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="33" width="50" x="480" y="303.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
