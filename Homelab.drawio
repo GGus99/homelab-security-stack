@@ -4,61 +4,46 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HZOaZlLsGa58mIDQCULS-15" edge="1" parent="1" source="HZOaZlLsGa58mIDQCULS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="HZOaZlLsGa58mIDQCULS-13" value="">
-          <mxGeometry relative="1" x="-0.494" as="geometry">
+        <mxCell id="HZOaZlLsGa58mIDQCULS-15" edge="1" parent="1" source="HZOaZlLsGa58mIDQCULS-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;strokeColor=default;elbow=vertical;startArrow=none;startFill=0;endArrow=none;endFill=0;" target="HZOaZlLsGa58mIDQCULS-13" value="">
+          <mxGeometry relative="1" x="-0.4747" as="geometry">
             <mxPoint x="360" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HZOaZlLsGa58mIDQCULS-3" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;labelPerimeter=1;" value="Mikrotik hAP 2&lt;div&gt;192.168.1.0&lt;/div&gt;" vertex="1">
-          <mxGeometry height="69.66" width="70" x="482.4" y="165" as="geometry" />
+        <mxCell id="HZOaZlLsGa58mIDQCULS-3" parent="1" style="html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png;labelPerimeter=1;strokeColor=#ffffff;sketch=0;pointerEvents=1;dashed=0;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.cisco.routers.router;" value="Mikrotik hAP 2&lt;div&gt;IP: 192.168.1.0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="53.8" x="490.5" y="184.66" as="geometry" />
         </mxCell>
-        <mxCell id="-0pF1SNu0UXrasuFyNMB-1" edge="1" parent="1" source="HZOaZlLsGa58mIDQCULS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;shape=filledEdge;startArrow=none;startFill=0;endArrow=none;endFill=0;" target="HZOaZlLsGa58mIDQCULS-7" value="">
+        <mxCell id="-0pF1SNu0UXrasuFyNMB-1" edge="1" parent="1" source="HZOaZlLsGa58mIDQCULS-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;shape=filledEdge;startArrow=none;startFill=0;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="HZOaZlLsGa58mIDQCULS-7" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-0pF1SNu0UXrasuFyNMB-12" edge="1" parent="1" source="HZOaZlLsGa58mIDQCULS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="HZOaZlLsGa58mIDQCULS-3">
+        <mxCell id="-0pF1SNu0UXrasuFyNMB-12" edge="1" parent="1" source="HZOaZlLsGa58mIDQCULS-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="HZOaZlLsGa58mIDQCULS-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HZOaZlLsGa58mIDQCULS-5" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/switch.svg;labelPerimeter=1;" value="Netgear GS108T&lt;div&gt;192.168.1.93&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="50" x="496.2" y="310" as="geometry" />
+        <mxCell id="HZOaZlLsGa58mIDQCULS-5" parent="1" style="aspect=fixed;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/switch.svg;labelPerimeter=1;strokeColor=#ffffff;sketch=0;pointerEvents=1;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.cisco.switches.layer_2_remote_switch;" value="Netgear GS108T&lt;div&gt;Static IP: 192.168.1.93&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="53.8" x="490.5" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="HZOaZlLsGa58mIDQCULS-7" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;labelPerimeter=1;" value="Ubuntu Server&lt;div&gt;Static IP: 192.168.121&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="28.000000000000004" x="281" y="433.39" as="geometry" />
+        <mxCell id="HZOaZlLsGa58mIDQCULS-7" parent="1" style="aspect=fixed;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;labelPerimeter=1;strokeColor=#ffffff;sketch=0;pointerEvents=1;fillColor=#036897;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.cisco.servers.standard_host;" value="Ubuntu Server&lt;div&gt;Static IP: 192.168.121&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="53.8" x="260" y="433.39" as="geometry" />
         </mxCell>
-        <mxCell id="-0pF1SNu0UXrasuFyNMB-4" edge="1" parent="1" source="-0pF1SNu0UXrasuFyNMB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="HZOaZlLsGa58mIDQCULS-5">
-          <mxGeometry relative="1" x="0.524" as="geometry">
-            <Array as="points">
-              <mxPoint x="430" y="458.4" />
-              <mxPoint x="430" y="420" />
-              <mxPoint x="521.2" y="420" />
-            </Array>
-            <mxPoint x="400" y="445" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="-0pF1SNu0UXrasuFyNMB-14" edge="1" parent="1" source="HZOaZlLsGa58mIDQCULS-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;dashed=1;" target="HZOaZlLsGa58mIDQCULS-3">
+          <mxGeometry relative="1" x="0.0453" as="geometry" />
         </mxCell>
-        <mxCell id="-0pF1SNu0UXrasuFyNMB-14" edge="1" parent="1" source="HZOaZlLsGa58mIDQCULS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="HZOaZlLsGa58mIDQCULS-3">
-          <mxGeometry relative="1" x="0.0486" as="geometry">
-            <Array as="points">
-              <mxPoint x="741.2" y="199.8" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="HZOaZlLsGa58mIDQCULS-10" parent="1" style="aspect=fixed;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/printer.svg;labelPerimeter=1;sketch=0;pointerEvents=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.printer;" value="HP Printer&lt;div&gt;Static IP: 192.158.1.90&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="53.8" x="710" y="430.61" as="geometry" />
         </mxCell>
-        <mxCell id="HZOaZlLsGa58mIDQCULS-10" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/printer.svg;labelPerimeter=1;" value="HP Printer&lt;div&gt;Static IP: 192.158.1.90&lt;/div&gt;" vertex="1">
-          <mxGeometry height="41.18" width="62.4" x="710" y="437.8" as="geometry" />
+        <mxCell id="HZOaZlLsGa58mIDQCULS-13" parent="1" style="aspect=fixed;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;labelPerimeter=1;shape=cloud;perimeter=ellipsePerimeter;whiteSpace=wrap;" value="Internet&lt;div&gt;Public IP: x.x.x.x&lt;/div&gt;" vertex="1">
+          <mxGeometry height="89.31" width="141.77" x="446.52" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="HZOaZlLsGa58mIDQCULS-13" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;labelPerimeter=1;" value="Internet&lt;div&gt;Public IP: x.x.x.x&lt;/div&gt;" vertex="1">
-          <mxGeometry height="39.31" width="62.4" x="490" y="50" as="geometry" />
+        <mxCell id="-0pF1SNu0UXrasuFyNMB-15" edge="1" parent="1" source="-0pF1SNu0UXrasuFyNMB-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;entryPerimeter=0;dashed=1;" target="HZOaZlLsGa58mIDQCULS-3">
+          <mxGeometry relative="1" x="0.0006" as="geometry" />
         </mxCell>
-        <mxCell id="-0pF1SNu0UXrasuFyNMB-15" edge="1" parent="1" source="-0pF1SNu0UXrasuFyNMB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="HZOaZlLsGa58mIDQCULS-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="640" y="182.4" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="-0pF1SNu0UXrasuFyNMB-5" parent="1" style="aspect=fixed;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;labelPerimeter=1;sketch=0;pointerEvents=1;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.laptop;" value="Laptop&lt;div&gt;IP: DHCP&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="53.8" x="610" y="430.61" as="geometry" />
         </mxCell>
-        <mxCell id="-0pF1SNu0UXrasuFyNMB-5" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;labelPerimeter=1;" value="Laptop&lt;div&gt;IP: DHCP&lt;/div&gt;" vertex="1">
-          <mxGeometry height="55.56" width="50" x="610" y="430.61" as="geometry" />
+        <mxCell id="-0pF1SNu0UXrasuFyNMB-20" edge="1" parent="1" source="-0pF1SNu0UXrasuFyNMB-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="HZOaZlLsGa58mIDQCULS-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-0pF1SNu0UXrasuFyNMB-6" parent="1" style="image;aspect=fixed;html=1;align=center;fontSize=12;image=img/lib/azure2/management_governance/Managed_Desktop.svg;points=[[0.5,0.003,0],[0.5,0.997,0],[0,0.5,0],[1,0.5,0],[0.987,0.008,0],[0.75,0.997,0],[0.25,0.997,0],[0.013,0.008,0]];labelPerimeter=1;" value="Desktop&lt;div&gt;IP: DHCP&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="53.8" x="410" y="433.39" as="geometry" />
+        <mxCell id="-0pF1SNu0UXrasuFyNMB-6" parent="1" style="aspect=fixed;html=1;align=center;fontSize=12;image=img/lib/azure2/management_governance/Managed_Desktop.svg;labelPerimeter=1;sketch=0;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.workstation;" value="Desktop&lt;div&gt;IP: DHCP&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="53.8" x="350" y="433.39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
