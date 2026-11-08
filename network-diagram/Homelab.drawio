@@ -51,7 +51,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b5d-HHR322FOnQsg9thU-1" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;shape=table;fontSize=16;fontStyle=0;startSize=30;childLayout=tableLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;moveCells=0;miterlimit=4;tableRender=collapsed;container=1;fixedRows=1;rowLines=0;" value="Docker Containers" vertex="1">
-          <mxGeometry height="212" width="202" x="100" y="570" as="geometry" />
+          <mxGeometry height="212" width="202" x="70" y="570" as="geometry" />
         </mxCell>
         <mxCell id="b5d-HHR322FOnQsg9thU-12" parent="b5d-HHR322FOnQsg9thU-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" value="" vertex="1">
           <mxGeometry height="30" width="202" y="30" as="geometry" />
