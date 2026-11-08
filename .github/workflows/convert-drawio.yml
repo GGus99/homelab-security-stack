@@ -1,8 +1,8 @@
 name: Convert Draw.io to PNG
 on:
   push:
-    paths:
-      - 'homelab-security-stack/network-diagram/Homelab.drawio'
+    #paths:
+      #- 'homelab-security-stack/network-diagram/Homelab.drawio'
 
 permissions:
   contents: write
