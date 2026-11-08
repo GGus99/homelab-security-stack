@@ -24,7 +24,7 @@ jobs:
         run: |
           TARGET_PNG="network-diagram/Homelab.png"
           BG_COLOR="#1E222B"
-          convert "$TARGET_PNG" -background "$BG_COLOR" -alpha remove -alpha off "$TARGET_PNG"
+          magick "$TARGET_PNG" -background "$BG_COLOR" -alpha remove -alpha off "$TARGET_PNG"
 
 
       - name: Commit changes
