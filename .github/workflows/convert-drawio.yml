@@ -2,7 +2,7 @@ name: Convert Draw.io to PNG
 on:
   push:
     paths:
-      - '**.drawio'
+      - 'network-diagram.drawio'
 
 jobs:
   convert:
