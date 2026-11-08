@@ -14,8 +14,8 @@ jobs:
       - name: Convert draw.io to PNG
         uses: Burnett01/actions-drawio@1.2
         with:
-          src: path/to/diagram.drawio
-          dest: path/to/diagram.png
+          src: homelab-security-stack/network-diagram/Homelab.drawio
+          dest: homelab-security-stack/network-diagram.png
           scale: 1.0
 
       - name: Commit changes
