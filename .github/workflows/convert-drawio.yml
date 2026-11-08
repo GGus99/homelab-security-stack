@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Render drawio files
-        uses: racklet/render-drawio-action@v1
+        uses: docker://ghcr.io/racklet/render-drawio-action:v1
         with:
           formats: png
           sub-dirs: 'homelab-security-stack/network-diagram'
