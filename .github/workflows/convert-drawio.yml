@@ -10,19 +10,20 @@ permissions:
 jobs:
   convert:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Render drawio files
-        uses: docker://ghcr.io/racklet/render-drawio-action:v1
+        uses: zxid/drawio-export-action@v1
         with:
-          #set output directory
-          formats: png
-          sub-dirs: 'homelab-security-stack/network-diagram'
-          #set background color
+          source: network-diagram/Homelab.drawio
+          output: network-diagram/Homelab.png
+          # Forces a charcoal gray color background directly, skipping transparency
           background: '#1E222B' 
           transparent: false
+
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
