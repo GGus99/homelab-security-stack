@@ -10,19 +10,25 @@ permissions:
 jobs:
   convert:
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Render drawio files
-        uses: zxid/drawio-export-action@v1
+      - name: Render drawio to PNG
+        uses: docker://ghcr.io/racklet/render-drawio-action:v1
         with:
-          source: network-diagram/Homelab.drawio
-          output: network-diagram/Homelab.png
-          # Forces a charcoal gray color background directly, skipping transparency
-          background: '#1E222B' 
-          transparent: false
+          formats: png
+          sub-dirs: 'homelab-security-stack/network-diagram'
+
+      - name: Force Custom Background Color
+        run: |
+          TARGET_PNG="homelab-security-stack/network-diagram/Homelab.png"
+          
+          # Choose your color here (e.g., #1E222B for Dark Charcoal, #0A192F for Navy, #F4F6F9 for Cisco Off-White)
+          BG_COLOR="#1E222B"
+          
+          # ImageMagick flattens the transparent PNG onto a solid canvas layer
+          convert "$TARGET_PNG" -background "$BG_COLOR" -alpha remove -alpha off "$TARGET_PNG"
 
 
       - name: Commit changes
