@@ -18,16 +18,12 @@ jobs:
         uses: docker://ghcr.io/racklet/render-drawio-action:v1
         with:
           formats: png
-          sub-dirs: 'homelab-security-stack/network-diagram'
+          sub-dirs: 'network-diagram'
 
       - name: Force Custom Background Color
         run: |
-          TARGET_PNG="homelab-security-stack/network-diagram/Homelab.png"
-          
-          # Choose your color here (e.g., #1E222B for Dark Charcoal, #0A192F for Navy, #F4F6F9 for Cisco Off-White)
+          TARGET_PNG="network-diagram/Homelab.png"
           BG_COLOR="#1E222B"
-          
-          # ImageMagick flattens the transparent PNG onto a solid canvas layer
           convert "$TARGET_PNG" -background "$BG_COLOR" -alpha remove -alpha off "$TARGET_PNG"
 
 
