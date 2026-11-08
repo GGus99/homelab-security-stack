@@ -1,24 +1,26 @@
-name: Convert Draw.io to PNG
+name: Render Draw.io Diagrams
 on:
   push:
     paths:
-      - 'network-diagram.drawio'
+      - '**/*.drawio'
+      
+permissions:
+  contents: write
 
 jobs:
-  convert:
+  render:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Convert draw.io to PNG
-        uses: Burnett01/actions-drawio@1.2
+      - name: Render drawio files
+        uses: racklet/render-drawio-action@v1
         with:
-          src: network-diagram/Homelab.drawio
-          dest: network-diagram/Homelab.png
-          scale: 1.0
+          formats: png
 
-      - name: Commit changes
+      - name: Commit PNG changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Automatically update draw.io PNG export"
+          commit_message: "Automatically update draw.io PNG export [skip ci]"
+
