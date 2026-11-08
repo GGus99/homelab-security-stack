@@ -17,8 +17,12 @@ jobs:
       - name: Render drawio files
         uses: docker://ghcr.io/racklet/render-drawio-action:v1
         with:
+          #set output directory
           formats: png
           sub-dirs: 'homelab-security-stack/network-diagram'
+          #set background color
+          background: '#1E222B' 
+          transparent: false
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
