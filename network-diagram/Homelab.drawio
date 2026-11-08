@@ -43,7 +43,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-0pF1SNu0UXrasuFyNMB-6" parent="1" style="aspect=fixed;html=1;align=center;fontSize=12;image=img/lib/azure2/management_governance/Managed_Desktop.svg;labelPerimeter=1;sketch=0;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.cisco.computers_and_peripherals.workstation;" value="Desktop&lt;div&gt;IP: DHCP&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="53.8" x="410" y="430.61" as="geometry" />
+          <mxGeometry height="50" width="53.8" x="390" y="430.61" as="geometry" />
         </mxCell>
         <mxCell id="b5d-HHR322FOnQsg9thU-30" edge="1" parent="1" source="b5d-HHR322FOnQsg9thU-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="HZOaZlLsGa58mIDQCULS-7">
           <mxGeometry relative="1" x="-0.172" as="geometry">
